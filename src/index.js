@@ -23,6 +23,6 @@ socketService(io);
 connectDB();
 
 // Start server
-server.listen(5001, () => {
+server.listen(5001, '0.0.0.0', () => {
   console.log("🚀 Server running on port 5001");
 });
